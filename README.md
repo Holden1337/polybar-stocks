@@ -13,6 +13,7 @@ Module for polybar for displaying stock prices
 ## Modules
 
 '''
+
 [module/stocks]
 type = custom/script
 tail = true
@@ -28,5 +29,6 @@ exec = ~/.config/polybar/scripts/stocks/scroll_stocks.sh
 type = custom/script
 exec = ~/.config/polybar/scripts/stocks/stocks.py
 interval = 900
+
 '''
 
