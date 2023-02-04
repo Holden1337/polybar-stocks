@@ -12,7 +12,7 @@ Module for polybar for displaying stock prices
 
 ## Modules
 
-'''
+```
 
 [module/stocks]
 type = custom/script
@@ -30,5 +30,5 @@ type = custom/script
 exec = ~/.config/polybar/scripts/stocks/stocks.py
 interval = 900
 
-'''
+```
 
