@@ -18,8 +18,7 @@ Module for polybar for displaying stock prices
 type = custom/script
 tail = true
 interval = 1
-;format-prefix = "  "
-;format-prefix = ""
+format-prefix = ""
 format = <label>
 label-padding = 1
 exec = ~/.config/polybar/scripts/stocks/scroll_stocks.sh
